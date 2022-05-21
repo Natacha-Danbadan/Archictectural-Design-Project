@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+ .top-hero{
+    background: url(../img/bg-image.jpeg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+h1 {
+    font-size: clamp(2rem, 5vw, 5rem) !important;
+}
+
+.text-primary{
+    color: #f1ae0e !important;
+}
+.btn-primary{
+    background:#f1ae0e !important;
+    color: white !important;
+    border-color: #f2f2f2 !important;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #f1ae0e;
+    border-color: #f1ae0e;
+}
+.navbar .active {
+    color: #f1ae0e !important;
+}
+.btn-outline-primary {
+    border-color: #f1ae0e !important;
+    color: #f2f2f2;
+}
+.bg-primary{
+    background-color: #f1ae0e !important;
+    color: white !important;
+}
+#footer, .bg-trans{
+    background-color: #292d33;
+}
+.card-body img{
+    width: 20%;
+}
+.client-image{
+    position: relative;
+}
+.client-text {
+    position: absolute; 
+    bottom: 96px;
+    left: -1px;
+}
+#expertise, #about, #testimony, .client-solution{
+    background-color: #f2f2f2;
+}
+.expertise-right img{
+    margin-left: 100px;
+}
+#count {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../img/fdrt.jpg);
+    background-position: 10% 10%;
+    background-repeat: no-repeat;
+}
+#building{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(../img/pexels-photo-5990678.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+
+#building .card .image-1 img{
+    width: 164px;
+    height: 164px;
+    border-radius: 50%;
+}
+#testimony .card .image-2 img{
+    width: 70px;
+    height: 65px;
+    border-radius: 50%;
+}
+#contact .contact-info i {
+    font-size: 20px;
+    color: #f1ae0e;
+    display: flex;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background:#291d02;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+#contact .contact-info .email:hover i, #contact .contact-info .address:hover i, #contact .contact-info .call:hover i {
+    background: #f1ae0e;
+    color: #fff;
+}
+
+
